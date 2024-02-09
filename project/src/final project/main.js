@@ -49,8 +49,8 @@ function Header() {
     setDescription(e.target.value);
   };
 
-  const handleEnter = (event) => {
-    if (event.key === "Enter") {
+  const handleEnter = (e) => {
+    if (e.key === "Enter") {
       handleIncrease(); 
     }
   };
