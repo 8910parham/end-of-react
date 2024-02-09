@@ -10,8 +10,8 @@ const LoginPage = () => {
 
   
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
+  const handleSubmit = (e) => {
+    e.preventDefault();
 
     if (username === "" || password === "") {
 alert("enter usename or password!")
@@ -37,7 +37,7 @@ alert("enter usename or password!")
           placeholder="username"
           name="username"
           value={username}
-          onChange={(event) => setUsername(event.target.value)}
+          onChange={(e) => setUsername(e.target.value)}
         />
       <p> password </p>
         <input
@@ -45,7 +45,7 @@ alert("enter usename or password!")
           id="password"
           name="password"
           value={password}
-          onChange={(event) => setPassword(event.target.value)}
+          onChange={(e) => setPassword(e.target.value)}
         />
  <a href=""></a>  
      
