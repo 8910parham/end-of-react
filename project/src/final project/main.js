@@ -39,7 +39,7 @@ function Header() {
 
   const handlePriceChange = (e) => {
     const value = parseInt(e.target.value);
-    if (isNaN(value) || value < 0) {
+    if ( value < 0) {
       return; 
     }
     setPrice(value);
