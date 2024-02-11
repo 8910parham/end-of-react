@@ -1,5 +1,5 @@
 
-import React, { useState } from "react";
+import  { useState } from "react";
 
 function Header() {
   const [money, setMoney] = useState(1000);
