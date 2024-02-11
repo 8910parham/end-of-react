@@ -2,7 +2,6 @@
 import {  Routes, Route  } from "react-router-dom";
 import { useState } from "react";
 import Header from "./main";
-import { Link } from "react-router-dom";
 const LoginPage = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -51,7 +50,7 @@ alert("enter usename or password!")
      
   
    <button type="submit">enter</button>
-<a href="/header.js">ok</a>
+
 
       </form>
     </div>
