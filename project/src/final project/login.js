@@ -49,7 +49,7 @@ alert("enter usename or password!")
  <a href=""></a>  
      
   
-   <button type="submit">enter</button>
+   <button className="enterbtn" type="submit">enter</button>
 
 
       </form>
